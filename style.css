@@ -1,0 +1,173 @@
+body {
+  background: black;
+}
+/* .box {
+  width: 200px;
+  height: 200px;
+  background: white;
+  border-radius: 50%;
+  position: relative;
+  animation-name: box-animation;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 5s;
+
+  animation: box-animation 3s linear infinite alternate 5s;
+}
+
+@keyframes box-animation {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 500px;
+    border-radius: 0;
+    background: red;
+    border: 5px dashed white;
+  }
+/* } */
+/* .block {
+  width: 1440px;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 269px;
+  height: 205px;
+  background: red;
+  position: relative; */
+
+/* animation-name: box-animation;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 5s; */
+/* } */
+/* .box:hover {
+  animation: box-animation 1s linear infinite alternate;
+}
+@keyframes box-animation {
+  0% {
+    left: 0;
+  }
+  20% {
+    background: yellow;
+  }
+  60% {
+    background: brown;
+  }
+  80% {
+    background: blue;
+  }
+  100% { */
+/* left: 500px; */
+/* border-radius: 0; */
+/* background: green; */
+/* border: 5px dashed white; */
+/* }
+} */
+.block {
+  width: 300px;
+  height: 500px;
+  background: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.red {
+  width: 150px;
+  height: 150px;
+  background: red;
+  border-radius: 50%;
+  background: #000;
+  animation: red 10s linear;
+}
+
+.yellow {
+  width: 150px;
+  height: 150px;
+  background: yellow;
+  border-radius: 50%;
+  background: #000;
+  animation: yellow 5s ease normal 10s;
+}
+
+.green {
+  width: 150px;
+  height: 150px;
+  background: green;
+  border-radius: 50%;
+  background: #000;
+  animation: green 10s ease normal 15s;
+}
+
+@keyframes red {
+  0% {
+    background: #000;
+  }
+  1% {
+    background: red;
+  }
+  100% {
+    background: red;
+  }
+}
+
+@keyframes yellow {
+  0% {
+    background: #000;
+  }
+  1% {
+    background: yellow;
+  }
+  10% {
+    background: #000;
+  }
+  20% {
+    background: yellow;
+  }
+  30% {
+    background: #000;
+  }
+  40% {
+    background: yellow;
+  }
+  50% {
+    background: #000;
+  }
+  60% {
+    background: yellow;
+  }
+  70% {
+    background: #000;
+  }
+  80% {
+    background: yellow;
+  }
+  90% {
+    background: #000;
+  }
+  100% {
+    background: yellow;
+  }
+}
+
+@keyframes green {
+  0% {
+    background: #000;
+  }
+  1% {
+    background: green;
+  }
+  100% {
+    background: green;
+  }
+}
